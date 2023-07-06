@@ -1,29 +1,28 @@
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
   height: 100vh;
   width: 100%;
-  background-color: red;
+  background-color: #fa5e5e;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.box {
+.caixa-pesquisa {
   width: 50px;
   height: 50px;
-
   border-radius: 25px;
   position: relative;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.513);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.317);
   transition: all 0.3s ease;
 }
 
-.box input {
+.caixa-pesquisa input {
   height: 100%;
   width: 100%;
   margin: auto;
@@ -34,7 +33,7 @@ body {
   font-size: 18px;
 }
 
-#check:checked ~ .box {
+#check:checked ~ .caixa-pesquisa {
   width: 400px;
 }
 
